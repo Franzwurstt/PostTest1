@@ -111,7 +111,7 @@ Total harga semua komponen: RpX,XXX.XX
 
 Case 6: Keluar
 
-Program menampilkan pesan: "Babay"
+Program akan menampilkan pesan: "Babay"
 
 Looping berhenti karena kondisi pilihan != 6 tidak terpenuhi.
 
