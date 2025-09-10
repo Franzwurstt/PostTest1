@@ -85,5 +85,10 @@ Jika nomor valid:
 
 <img width="429" height="164" alt="image" src="https://github.com/user-attachments/assets/529a453b-5f34-4ca6-9010-15a6c54dba75" />
 
+Case 5: Keluar
 
+Jika memasukkan no 5, prrogram akan menampilkan "..............".
 
+Perulangan berhenti karena kondisi pilihan != 5 tidak terpenuhi.
+
+<img width="281" height="56" alt="image" src="https://github.com/user-attachments/assets/84201db1-daee-4522-af55-307001f30d73" />
