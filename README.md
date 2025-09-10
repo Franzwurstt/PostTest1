@@ -21,3 +21,15 @@ Kode ini berfungsi untuk menyiapkan struktur data (ArrayList) dan input (Scanner
 Variabel pilihan digunakan untuk menampung menu yang dipilih.
 
 <img width="340" height="55" alt="image" src="https://github.com/user-attachments/assets/478a6ad6-d31a-430a-96e3-8bbac2c22a71" />
+
+2. Perulangan Menu Utama
+
+Program menampilkan menu utama dalam sebuah do-while loop.
+Selama pilihan bukan 5 (Keluar), program akan terus berjalan.
+
+Menu yang ditampilkan:
+-Buat List Komponen
+-Lihat List Komponen
+-Update List Komponen
+-Hapus List Komponen
+-Keluar
