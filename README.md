@@ -92,3 +92,10 @@ Jika memasukkan no 5, prrogram akan menampilkan "..............".
 Perulangan berhenti karena kondisi pilihan != 5 tidak terpenuhi.
 
 <img width="281" height="56" alt="image" src="https://github.com/user-attachments/assets/84201db1-daee-4522-af55-307001f30d73" />
+
+Default:
+
+Jika user memasukkan angka selain 1–5, tampil pesan "Pilihan tidak valid".
+
+<img width="299" height="41" alt="image" src="https://github.com/user-attachments/assets/4ec76a0f-a65a-4ad6-a27b-71701b88937f" />
+
