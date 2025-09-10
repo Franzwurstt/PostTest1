@@ -13,10 +13,13 @@ Penjelasan Alur Program
 
 Program membuat dua ArrayList:
 
-namakomponen → menyimpan nama komponen komputer.
-
-hargakomponen → menyimpan harga dari masing-masing komponen.
-
+namakomponen menyimpan nama komponen komputer.
+hargakomponen menyimpan harga dari masing-masing komponen.
 Scanner (input) digunakan untuk membaca data dari pengguna.
 
+Kode ini berfungsi untuk menyiapkan struktur data (ArrayList) dan input (Scanner).
 Variabel pilihan digunakan untuk menampung menu yang dipilih.
+ArrayList<String> namakomponen = new ArrayList<>();
+        ArrayList<Integer> hargakomponen = new ArrayList<>();
+        Scanner input = new Scanner(System.in);
+        int pilihan;
