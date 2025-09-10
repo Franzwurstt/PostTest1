@@ -106,3 +106,34 @@ Jika user memasukkan angka selain 1–5, tampil pesan "Pilihan tidak valid".
 
 <img width="299" height="41" alt="image" src="https://github.com/user-attachments/assets/4ec76a0f-a65a-4ad6-a27b-71701b88937f" />
 
+**5. Output**
+
+-Menu*
+
+<img width="215" height="92" alt="image" src="https://github.com/user-attachments/assets/0030d1ad-739f-4f66-a04d-c4f4edd245f4" />
+
+- Opsi 1: Create (Buat List Komponen)
+
+<img width="212" height="121" alt="image" src="https://github.com/user-attachments/assets/de1e4582-e73b-46c7-93d0-d2922a0cdf3a" />
+
+- Opsi 2: Read (Lihat List Komponen)
+
+<img width="218" height="116" alt="image" src="https://github.com/user-attachments/assets/95dc5844-ad4a-4dee-bc1c-74cb85299fcc" />
+
+- Opsi 3: Update (Update List Komponen)
+
+<img width="279" height="260" alt="image" src="https://github.com/user-attachments/assets/f6cb1c2a-504d-4621-9c76-a9c9e1153f50" />
+
+- Opsi 4: Delete (Hapus List Komponen)
+
+<img width="520" height="458" alt="image" src="https://github.com/user-attachments/assets/257a8bb8-43bf-4319-b847-5fc9ae794c13" />
+
+- Opsi 5: Keluar
+
+<img width="219" height="175" alt="image" src="https://github.com/user-attachments/assets/2af76b59-1006-4cb0-b5af-ee1a2e668c7f" />
+
+- Jika memilih opsi selain 1-5
+- 
+<img width="221" height="110" alt="image" src="https://github.com/user-attachments/assets/b5f2ff21-72a6-400c-9e3a-e49fa67227e7" />
+
+
