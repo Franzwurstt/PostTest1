@@ -1,6 +1,6 @@
 # PostTest1
 
-**Manajemen Daftar Harga Komponen Komputer
+*Manajemen Daftar Harga Komponen Komputer*
 
 Deskripsi Program
 
