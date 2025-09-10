@@ -17,6 +17,7 @@ Program ini dibuat untuk orang orang seperti pemilik toko komputer, teknisi, ata
 **1. Inisialisasi Data**
 
 Program membuat dua ArrayList:
+Disini saya menggunakan import java.util.ArrayList; untuk menyimpan data dan import java.util.Scanner; untuk input.
 
 namakomponen menyimpan nama komponen komputer.
 hargakomponen menyimpan harga dari masing-masing komponen.
@@ -25,7 +26,7 @@ Scanner (input) digunakan untuk membaca data dari pengguna.
 Kode ini berfungsi untuk menyiapkan struktur data (ArrayList) dan input (Scanner).
 Variabel pilihan digunakan untuk menampung menu yang dipilih.
 
-<img width="340" height="55" alt="image" src="https://github.com/user-attachments/assets/478a6ad6-d31a-430a-96e3-8bbac2c22a71" />
+<img width="386" height="129" alt="image" src="https://github.com/user-attachments/assets/715525e5-d35d-4a0d-8001-90bc936a4bb6" />
 
 **2. Perulangan Menu Utama**
 
