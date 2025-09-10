@@ -133,7 +133,7 @@ Jika user memasukkan angka selain 1–5, tampil pesan "Pilihan tidak valid".
 <img width="219" height="175" alt="image" src="https://github.com/user-attachments/assets/2af76b59-1006-4cb0-b5af-ee1a2e668c7f" />
 
 - Jika memilih opsi selain 1-5
-- 
+-  
 <img width="221" height="110" alt="image" src="https://github.com/user-attachments/assets/b5f2ff21-72a6-400c-9e3a-e49fa67227e7" />
 
 
