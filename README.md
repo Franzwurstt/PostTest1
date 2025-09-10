@@ -16,7 +16,6 @@ Program ini dibuat untuk orang orang seperti pemilik toko komputer, teknisi, ata
 
 **1. Inisialisasi Data**
 
-Program membuat dua ArrayList:
 Disini saya menggunakan import java.util.ArrayList; untuk menyimpan data dan import java.util.Scanner; untuk input.
 
 namakomponen menyimpan nama komponen komputer.
@@ -26,115 +25,141 @@ Scanner (input) digunakan untuk membaca data dari pengguna.
 Kode ini berfungsi untuk menyiapkan struktur data (ArrayList) dan input (Scanner).
 Variabel pilihan digunakan untuk menampung menu yang dipilih.
 
-<img width="386" height="129" alt="image" src="https://github.com/user-attachments/assets/715525e5-d35d-4a0d-8001-90bc936a4bb6" />
+<img width="365" height="134" alt="image" src="https://github.com/user-attachments/assets/d7e4aa3e-6c57-4eee-a172-0ac75ed4406b" />
+
 
 **2. Perulangan Menu Utama**
 
-Program akan menampilkan menu utama dalam sebuah do-while loop, selama pilihan bukan 5 (Keluar), program akan terus berjalan.
+Program menggunakan do-while loop, sehingga menu akan selalu ditampilkan berulang kali sampai pengguna memilih opsi keluar.
+Menu utama terdiri dari 6 pilihan:
 
-Menu yang ditampilkan:
--Buat List Komponen
+- Buat List Komponen
 
--Lihat List Komponen
+- Lihat List Komponen
 
--Update List Komponen
+- Update List Komponen
 
--Hapus List Komponen
+- Hapus List Komponen
 
--Keluar
+- Hitung Total Harga Komponen
 
-Program menggunakan do-while loop supaya menu terus tampil sampai user memilih keluar.
+- Keluar
 
-<img width="408" height="146" alt="image" src="https://github.com/user-attachments/assets/80c16702-7da9-47e3-974e-27dd616c5ce0" />
+Jika pengguna memasukkan angka di luar 1–6, maka akan tampil pesan "Pilihan tidak valid".
+
+<img width="406" height="167" alt="image" src="https://github.com/user-attachments/assets/e7f92a88-2211-44c5-9eb1-6be12b41a08a" />
+
 
 <img width="178" height="31" alt="image" src="https://github.com/user-attachments/assets/82a336ac-7c8f-49a4-9a0f-dc2e05d9db6e" />
 
 **3. Pilihan Menu (switch-case)**
 
-*Case 1: Buat List Komponen*
+Case 1: Buat List Komponen
 
-Pertama User akan diminta untuk memasukkan nama komponen, lalu User diminta memasukkan harga dari komponen, naama dan harga nantinya akan disimpan ke dalam ArrayList, setelah itu program akan menampilkan pesan bahwa komponen berhasil ditambahkan.
+Disini User diminta memasukkan nama dan harga komponen.
+Data disimpan ke dalam dua ArrayList (namakomponen dan hargakomponen).
 
-<img width="383" height="157" alt="image" src="https://github.com/user-attachments/assets/1f3e075d-a23e-4e58-a732-07b7d78172b9" />
+Program menampilkan pesan: "Komponen berhasil ditambahkan".
 
-*Case 2: Lihat List Komponen*
+<img width="370" height="154" alt="image" src="https://github.com/user-attachments/assets/cf765d0c-5ea4-4054-bcea-49ad78314385" />
 
-Jika ArrayList kosong nanti akan tampil pesan "Kosong", jika ada isi program akan tampilkan seluruh daftar komponen dengan format: NamaKomponen | Harga: RpHargaKomponen
 
-<img width="443" height="154" alt="image" src="https://github.com/user-attachments/assets/d5353a81-eee7-4415-8e3e-bc2edb91bc33" />
+Case 2: Lihat List Komponen
 
-*Case 3: Update List Komponen*
+Jika daftar kosong nanti tampil pesan "Kosong".
 
-User diminta untuk memasukkan nomor indeks komponen yang ingin diupdate.
-Jika nomor valid:
+Kalau ada isi datanya, program akan menampilkan daftar semua komponen yang sudah tersimpan, dalam format:
 
--User memasukkan nama baru dan harga baru.
+[Nomor]. NamaKomponen | Harga: RpHarga
 
--Data lama pada indeks tersebut diganti dengan data baru.
+Harga ditampilkan dengan format ribuan (String.format("%,.2f", harga)).
 
--Tampil pesan "Komponen berhasil diupdate".
+<img width="514" height="155" alt="image" src="https://github.com/user-attachments/assets/1baf83f2-5979-4942-8ef5-4de4c38f2f31" />
 
--Jika nomor tidak valid akan tampil "Nomor tidak valid.".
 
-<img width="437" height="266" alt="image" src="https://github.com/user-attachments/assets/52ad68dc-a4a1-475b-b8df-f9a422e304ba" />
+Case 3: Update List Komponen
 
-*Case 4: Hapus List Komponen*
+User diminta memasukkan nomor indeks komponen yang ingin diubah.
+Jika nomo valid: User diminta memasukkan nama baru dan harga baru,
+Data lama diganti dengan data baru pada indeks tersebut,
+Tampil pesan: "Komponen berhasil diupdate".
+
+Jika nomor tidak valid akan tampil notif "Nomor tidak valid.".
+
+<img width="431" height="260" alt="image" src="https://github.com/user-attachments/assets/bddc2414-5603-4a4d-8087-206fe76ae9a7" />
+
+Case 4: Hapus List Komponen
 
 User diminta memasukkan nomor indeks komponen yang ingin dihapus.
 
 Jika nomor valid:
+Data nama dan harga pada indeks tersebut dihapus dari ArrayList,
+Tampil pesan: "Komponen berhasil dihapus",
 
--Data pada indeks tersebut dihapus dari kedua ArrayList.
+Jika nomor tidak valid nanti akan tampil "Nomor tidak valid.".
 
--Akan tampil pesan "Komponen berhasil dihapus".
+<img width="439" height="169" alt="image" src="https://github.com/user-attachments/assets/5ddebcab-1211-4de9-bea9-1dc3cfa00857" />
 
--Jika nomor tidak valid → tampil "Nomor tidak valid.".
+Case 5: Hitung Total Harga Komponen
 
+Program menjumlahkan semua nilai dalam hargakomponen.
 
-<img width="429" height="164" alt="image" src="https://github.com/user-attachments/assets/529a453b-5f34-4ca6-9010-15a6c54dba75" />
+Hasil ditampilkan dalam format:
+Total harga semua komponen: RpX,XXX.XX
 
-*Case 5: Keluar*
+<img width="545" height="104" alt="image" src="https://github.com/user-attachments/assets/480d6ce8-d459-4685-8fcc-db12cb508468" />
 
-Jika memasukkan no 5, prrogram akan menampilkan "..............".
+Case 6: Keluar
 
-Perulangan berhenti karena kondisi pilihan != 5 tidak terpenuhi.
+Program menampilkan pesan: "Babay"
 
-<img width="281" height="56" alt="image" src="https://github.com/user-attachments/assets/84201db1-daee-4522-af55-307001f30d73" />
+Looping berhenti karena kondisi pilihan != 6 tidak terpenuhi.
+
+<img width="257" height="50" alt="image" src="https://github.com/user-attachments/assets/08d42f1d-a636-4732-80aa-2ea35896a2f1" />
 
 **4. Default**
 
-Jika user memasukkan angka selain 1–5, tampil pesan "Pilihan tidak valid".
+Kalau user memasukkan angka selain 1, 2, 3, 4, 5, 6, maka blok default akan dijalankan.
 
-<img width="299" height="41" alt="image" src="https://github.com/user-attachments/assets/4ec76a0f-a65a-4ad6-a27b-71701b88937f" />
+Program akan menampilkan pesan:
+"Pilihan tidak valid"
+
+Setelah itu, program kembali ke menu utama karena masih berada di dalam perulangan do-while.
+
+<img width="291" height="42" alt="image" src="https://github.com/user-attachments/assets/ec2a91a0-b67a-409f-aa9a-b55152c7727e" />
 
 **5. Output**
 
--Menu*
+-Menu
 
-<img width="215" height="92" alt="image" src="https://github.com/user-attachments/assets/0030d1ad-739f-4f66-a04d-c4f4edd245f4" />
+<img width="217" height="103" alt="image" src="https://github.com/user-attachments/assets/a197447b-9b19-4d20-bad4-e033c785a586" />
 
-- Opsi 1: Create (Buat List Komponen)
+- Opsi 1
 
-<img width="212" height="121" alt="image" src="https://github.com/user-attachments/assets/de1e4582-e73b-46c7-93d0-d2922a0cdf3a" />
+<img width="209" height="140" alt="image" src="https://github.com/user-attachments/assets/ab54f7d3-8191-4e89-9c1d-13f40d7f4eeb" />
 
-- Opsi 2: Read (Lihat List Komponen)
+- Opsi 2
 
-<img width="218" height="116" alt="image" src="https://github.com/user-attachments/assets/95dc5844-ad4a-4dee-bc1c-74cb85299fcc" />
+<img width="228" height="130" alt="image" src="https://github.com/user-attachments/assets/b126d715-f616-4475-9002-452ea26f6261" />
 
-- Opsi 3: Update (Update List Komponen)
+- Opsi 3
 
-<img width="279" height="260" alt="image" src="https://github.com/user-attachments/assets/f6cb1c2a-504d-4621-9c76-a9c9e1153f50" />
+<img width="266" height="281" alt="image" src="https://github.com/user-attachments/assets/98319ede-ee36-495b-b472-df822ecfa804" />
 
-- Opsi 4: Delete (Hapus List Komponen)
+- Opsi 4
 
-<img width="520" height="458" alt="image" src="https://github.com/user-attachments/assets/257a8bb8-43bf-4319-b847-5fc9ae794c13" />
+  <img width="253" height="253" alt="image" src="https://github.com/user-attachments/assets/bc6992d2-5338-404a-aa25-ab3e07b6f6b2" />
 
-- Opsi 5: Keluar
+- Opsi 5
 
-<img width="219" height="175" alt="image" src="https://github.com/user-attachments/assets/2af76b59-1006-4cb0-b5af-ee1a2e668c7f" />
+  <img width="253" height="295" alt="image" src="https://github.com/user-attachments/assets/238e833d-01a3-4ce6-86c2-98798df3e6fc" />
 
-- Jika memilih opsi selain 1-5
--  
-<img width="221" height="110" alt="image" src="https://github.com/user-attachments/assets/b5f2ff21-72a6-400c-9e3a-e49fa67227e7" />
+- Opsi 6
 
+  <img width="217" height="186" alt="image" src="https://github.com/user-attachments/assets/dcbe56cd-f9bb-4a44-b732-ffae84fa7697" />
 
+- Default
+
+  <img width="215" height="119" alt="image" src="https://github.com/user-attachments/assets/5c463fd6-4804-4883-bda2-aed12cf62d06" />
+
+  
