@@ -55,5 +55,35 @@ Jika ArrayList kosong nanti akan tampil pesan "Kosong", jika ada isi program aka
 
 <img width="443" height="154" alt="image" src="https://github.com/user-attachments/assets/d5353a81-eee7-4415-8e3e-bc2edb91bc33" />
 
+Case 3: Update List Komponen
+
+User diminta untuk memasukkan nomor indeks komponen yang ingin diupdate.
+Jika nomor valid:
+
+-User memasukkan nama baru dan harga baru.
+
+-Data lama pada indeks tersebut diganti dengan data baru.
+
+-Tampil pesan "Komponen berhasil diupdate".
+
+-Jika nomor tidak valid akan tampil "Nomor tidak valid.".
+
+<img width="437" height="266" alt="image" src="https://github.com/user-attachments/assets/52ad68dc-a4a1-475b-b8df-f9a422e304ba" />
+
+Case 4: Hapus List Komponen
+
+User diminta memasukkan nomor indeks komponen yang ingin dihapus.
+
+Jika nomor valid:
+
+-Data pada indeks tersebut dihapus dari kedua ArrayList.
+
+-Akan tampil pesan "Komponen berhasil dihapus".
+
+-Jika nomor tidak valid → tampil "Nomor tidak valid.".
+
+
+<img width="429" height="164" alt="image" src="https://github.com/user-attachments/assets/529a453b-5f34-4ca6-9010-15a6c54dba75" />
+
 
 
