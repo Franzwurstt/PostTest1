@@ -10,9 +10,11 @@
 
 Program ini dibuat untuk orang orang seperti pemilik toko komputer, teknisi, atau orang orang yang ingin merakit komputer untuk mencatat harga dari komponen yang ingin mereka beli, sehingga mereka bisa mempertimbangkan terlebih dahulu sebelum membeli. Disini pengguna dapat menambahkan komponen baru beserta harganya, melihat daftar komponen yang sudah tersimpan, memperbarui data komponen, serta menghapus data komponen yang tidak diperlukan.
 
-**Penjelasan Alur Program**
+---
 
-1. Inisialisasi Data
+# Penjelasan Alur Program
+
+**1. Inisialisasi Data**
 
 Program membuat dua ArrayList:
 
@@ -25,7 +27,7 @@ Variabel pilihan digunakan untuk menampung menu yang dipilih.
 
 <img width="340" height="55" alt="image" src="https://github.com/user-attachments/assets/478a6ad6-d31a-430a-96e3-8bbac2c22a71" />
 
-2. Perulangan Menu Utama
+**2. Perulangan Menu Utama**
 
 Program akan menampilkan menu utama dalam sebuah do-while loop, selama pilihan bukan 5 (Keluar), program akan terus berjalan.
 
@@ -46,20 +48,21 @@ Program menggunakan do-while loop supaya menu terus tampil sampai user memilih k
 
 <img width="178" height="31" alt="image" src="https://github.com/user-attachments/assets/82a336ac-7c8f-49a4-9a0f-dc2e05d9db6e" />
 
-Pilihan Menu (switch-case)
+**3. Pilihan Menu (switch-case)**
 
-Case 1: Buat List Komponen
+*Case 1: Buat List Komponen*
+
 Pertama User akan diminta untuk memasukkan nama komponen, lalu User diminta memasukkan harga dari komponen, naama dan harga nantinya akan disimpan ke dalam ArrayList, setelah itu program akan menampilkan pesan bahwa komponen berhasil ditambahkan.
 
 <img width="383" height="157" alt="image" src="https://github.com/user-attachments/assets/1f3e075d-a23e-4e58-a732-07b7d78172b9" />
 
-Case 2: Lihat List Komponen
+*Case 2: Lihat List Komponen*
 
 Jika ArrayList kosong nanti akan tampil pesan "Kosong", jika ada isi program akan tampilkan seluruh daftar komponen dengan format: NamaKomponen | Harga: RpHargaKomponen
 
 <img width="443" height="154" alt="image" src="https://github.com/user-attachments/assets/d5353a81-eee7-4415-8e3e-bc2edb91bc33" />
 
-Case 3: Update List Komponen
+*Case 3: Update List Komponen*
 
 User diminta untuk memasukkan nomor indeks komponen yang ingin diupdate.
 Jika nomor valid:
@@ -74,7 +77,7 @@ Jika nomor valid:
 
 <img width="437" height="266" alt="image" src="https://github.com/user-attachments/assets/52ad68dc-a4a1-475b-b8df-f9a422e304ba" />
 
-Case 4: Hapus List Komponen
+*Case 4: Hapus List Komponen*
 
 User diminta memasukkan nomor indeks komponen yang ingin dihapus.
 
@@ -89,7 +92,7 @@ Jika nomor valid:
 
 <img width="429" height="164" alt="image" src="https://github.com/user-attachments/assets/529a453b-5f34-4ca6-9010-15a6c54dba75" />
 
-Case 5: Keluar
+*Case 5: Keluar*
 
 Jika memasukkan no 5, prrogram akan menampilkan "..............".
 
@@ -97,7 +100,7 @@ Perulangan berhenti karena kondisi pilihan != 5 tidak terpenuhi.
 
 <img width="281" height="56" alt="image" src="https://github.com/user-attachments/assets/84201db1-daee-4522-af55-307001f30d73" />
 
-Default:
+**4. Default**
 
 Jika user memasukkan angka selain 1–5, tampil pesan "Pilihan tidak valid".
 
